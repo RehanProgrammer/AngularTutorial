@@ -1,27 +1,8 @@
-# MyApp
+#### <u>Starting the tutorial</u>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+I followed the instruction given on the https://angular.io/tutorial/toh-pt0. Followed the steps until I came to a point where I was trying to host my website. The command "aws s3 sync build/ s3://YOUR_S3_DEPLOY_BUCKET_NAME" does not work and it gives you the error file path does not exist. The solution was I manually uploaded the files in order to make the website up and running. 
 
-## Development server
+#### <u>Uploading the files using cmd</u>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Read this for more information. https://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
